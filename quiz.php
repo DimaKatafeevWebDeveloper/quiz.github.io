@@ -30,7 +30,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $send = mail ($to, $subject, $message, $headers);
     if ($send == 'true')
     {
-		//header( "Location: /graffiti/" );
+
 		echo "<h4 align=\"center\">Спасибо! Мы свяжемся с вами в ближайшее время</h4>";
     }
     else
