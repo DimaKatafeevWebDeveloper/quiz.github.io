@@ -209,20 +209,21 @@
                            <span></span>
                         </div>
                      </div>
-                     <form action="/quiz.php" class="quiz__form" method="post">
+                     <form action="quiz.php" class="quiz__form" method="post">
                         <input type="hidden" name="VyborPereplanirovki" value="">
                         <input type="hidden" name="CelPereplanirovki" value="">
                         <input type="hidden" name="moKulturnoeNaslediedel" value="">
                         <input type="hidden" name="SborDoc" value="">
                         <input type="hidden" name="Konflikty" value="">
-                        <input type="text" name="name" placeholder="Имя">
-                        <input type="text" name="phone" placeholder="Телефон">
-                     </form>
+                        <input type="text" name="name" placeholder="Имя" required>
+                        <input type="text" name="phone" placeholder="Телефон" required>
+                    
                      <div class="quiz__footer">
                         <a href="javascript:void(0);" class="quiz__prev prev-sixth">Назад</a>
-                        <button href="javascript:void(0);" type="submit" name="submit"
+                        <button type="submit" name="submit"
                            class="quiz__next next-sixth">Отправить</button>
                      </div>
+											  </form>
                   </div>
                </div>
 
@@ -230,7 +231,6 @@
 
          </div>
       </div>
-
 
 
       <!-- footer -->
