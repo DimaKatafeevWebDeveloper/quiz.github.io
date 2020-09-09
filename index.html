@@ -19,208 +19,213 @@
          <div class="quiz__container container">
             <a href="javascript:void(0);" class="quiz__btn">Начать</a>
             <div class="quiz__modal">
-               <form action="/quiz.php">
-                  <div class="quiz__body body-first">
-                     <div class="quiz__content">
-                        <div class="quiz__header">
-                           <h2 class="quiz__title">1. Выберите вашу перепланировку</h2>
-                           <div class="quiz__icon">
-                              <span></span>
-                              <span></span>
-                           </div>
+
+               <div class="quiz__body body-first">
+                  <div class="quiz__content">
+                     <div class="quiz__header">
+                        <h2 class="quiz__title">1. Выберите вашу перепланировку</h2>
+                        <div class="quiz__icon">
+                           <span></span>
+                           <span></span>
                         </div>
-                        <ul class="quiz__question">
-                           <li>
-                              <label>
-                                 <input type="checkbox" name="VyborPereplanirovki" value="Планировка сделана, требуется только
+                     </div>
+                     <ul class="quiz__question">
+                        <li>
+                           <label>
+                              <input type="checkbox" name="VyborPereplanirovki" value="Планировка сделана, требуется только
                               узаконивание">Планировка сделана, требуется только
-                                 узаконивание
-                              </label>
-                           </li>
-                           <li>
-                              <label>
-                                 <input type="checkbox" name="VyborPereplanirovki"
-                                    value="Перепланировка планируется">Перепланировка планируется
-                              </label>
-                           </li>
-                        </ul>
-                        <div class="quiz__footer">
-                           <a href="javascript:void(0);" class="quiz__next next-first">Далее</a>
-                        </div>
+                              узаконивание
+                           </label>
+                        </li>
+                        <li>
+                           <label>
+                              <input type="checkbox" name="VyborPereplanirovki"
+                                 value="Перепланировка планируется">Перепланировка планируется
+                           </label>
+                        </li>
+                     </ul>
+                     <div class="quiz__footer">
+                        <a href="javascript:void(0);" class="quiz__next next-first">Далее</a>
                      </div>
                   </div>
-                  <div class="quiz__body body-second">
-                     <div class="quiz__content">
-                        <div class="quiz__header">
-                           <h2 class="quiz__title">2. Цель перепланировки</h2>
-                           <div class="quiz__icon">
-                              <span></span>
-                              <span></span>
-                           </div>
+               </div>
+               <div class="quiz__body body-second">
+                  <div class="quiz__content">
+                     <div class="quiz__header">
+                        <h2 class="quiz__title">2. Цель перепланировки</h2>
+                        <div class="quiz__icon">
+                           <span></span>
+                           <span></span>
                         </div>
-                        <ul class="quiz__question">
-                           <li>
-                              <label>
-                                 <input type="checkbox" name="CelPereplanirovki"
-                                    value="Перенос уборных и ванных комнат">Перенос уборных и ванных комнат
-                              </label>
-                           </li>
-                           <li>
-                              <label>
-                                 <input type="checkbox" name="CelPereplanirovki" value="Устройство/заделка проемов в несущих стенах
+                     </div>
+                     <ul class="quiz__question">
+                        <li>
+                           <label>
+                              <input type="checkbox" name="CelPereplanirovki"
+                                 value="Перенос уборных и ванных комнат">Перенос уборных и ванных комнат
+                           </label>
+                        </li>
+                        <li>
+                           <label>
+                              <input type="checkbox" name="CelPereplanirovki" value="Устройство/заделка проемов в несущих стенах
                               и перекрытиях">Устройство/заделка проемов в несущих стенах
-                                 и перекрытиях
-                              </label>
-                           </li>
-                           <li>
-                              <label>
-                                 <input type="checkbox" name="CelPereplanirovki"
-                                    value="Устройство несущих стен">Устройство
-                                 несущих стен
-                              </label>
-                           </li>
-                           <li>
-                              <label>
-                                 <input type="checkbox" name="CelPereplanirovki" value="Перенос кухонь">Перенос
-                                 кухонь
-                              </label>
-                           </li>
-                           <li>
-                              <label>
-                                 <input type="checkbox" name="CelPereplanirovki" value="Устройство/демонтаж вспомогательных
+                              и перекрытиях
+                           </label>
+                        </li>
+                        <li>
+                           <label>
+                              <input type="checkbox" name="CelPereplanirovki" value="Устройство несущих стен">Устройство
+                              несущих стен
+                           </label>
+                        </li>
+                        <li>
+                           <label>
+                              <input type="checkbox" name="CelPereplanirovki" value="Перенос кухонь">Перенос
+                              кухонь
+                           </label>
+                        </li>
+                        <li>
+                           <label>
+                              <input type="checkbox" name="CelPereplanirovki" value="Устройство/демонтаж вспомогательных
                               помещений">Устройство/демонтаж вспомогательных
-                                 помещений
-                              </label>
-                           </li>
-                           <li>
-                              <label>
-                                 <input type="checkbox" name="CelPereplanirovki"
-                                    value="Для коммерческого использования (Хостел/Мини-Отель)">
-                                 <nobr>Для коммерческого использования</nobr>
-                                 <nobr>
-                                    (Хостел/Мини-Отель)</nobr>
-                              </label>
-                           </li>
-                           <li>
-                              <label>
-                                 <input type="checkbox" name="CelPereplanirovki" value="Замена конструкции пола">Замена
-                                 конструкции пола
-                              </label>
-                           </li>
-                           <li>
-                              <label>
-                                 <input type="checkbox" name="CelPereplanirovki" value="Объединение квартир">Объединение
-                                 квартир
-                              </label>
-                           </li>
-                        </ul>
-                        <div class="quiz__footer">
-                           <a href="javascript:void(0);" class="quiz__prev prev-second">Назад</a>
-                           <a href="javascript:void(0);" class="quiz__next next-second">Далее</a>
-                        </div>
+                              помещений
+                           </label>
+                        </li>
+                        <li>
+                           <label>
+                              <input type="checkbox" name="CelPereplanirovki"
+                                 value="Для коммерческого использования (Хостел/Мини-Отель)">
+                              <nobr>Для коммерческого использования</nobr>
+                              <nobr>
+                                 (Хостел/Мини-Отель)</nobr>
+                           </label>
+                        </li>
+                        <li>
+                           <label>
+                              <input type="checkbox" name="CelPereplanirovki" value="Замена конструкции пола">Замена
+                              конструкции пола
+                           </label>
+                        </li>
+                        <li>
+                           <label>
+                              <input type="checkbox" name="CelPereplanirovki" value="Объединение квартир">Объединение
+                              квартир
+                           </label>
+                        </li>
+                     </ul>
+                     <div class="quiz__footer">
+                        <a href="javascript:void(0);" class="quiz__prev prev-second">Назад</a>
+                        <a href="javascript:void(0);" class="quiz__next next-second">Далее</a>
                      </div>
                   </div>
-                  <div class="quiz__body body-third">
-                     <div class="quiz__content">
-                        <div class="quiz__header">
-                           <h2 class="quiz__title">3. Является ли дом объектом культурного наследия?</h2>
-                           <div class="quiz__icon">
-                              <span></span>
-                              <span></span>
-                           </div>
-                        </div>
-                        <ul class="quiz__question">
-                           <li>
-                              <label>
-                                 <input type="checkbox" name="KulturnoeNasledie" value="Да">Да
-                              </label>
-                           </li>
-                           <li>
-                              <label>
-                                 <input type="checkbox" name="KulturnoeNasledie" value="Нет">Нет
-                              </label>
-                           </li>
-                        </ul>
-                        <div class="quiz__footer">
-                           <a href="javascript:void(0);" class="quiz__prev prev-third">Назад</a>
-                           <a href="javascript:void(0);" class="quiz__next next-third">Далее</a>
+               </div>
+               <div class="quiz__body body-third">
+                  <div class="quiz__content">
+                     <div class="quiz__header">
+                        <h2 class="quiz__title">3. Является ли дом объектом культурного наследия?</h2>
+                        <div class="quiz__icon">
+                           <span></span>
+                           <span></span>
                         </div>
                      </div>
-                  </div>
-                  <div class="quiz__body body-fourth">
-                     <div class="quiz__content">
-                        <div class="quiz__header">
-                           <h2 class="quiz__title">4. Потребуется ли сбор документов?</h2>
-                           <div class="quiz__icon">
-                              <span></span>
-                              <span></span>
-                           </div>
-                        </div>
-                        <ul class="quiz__question">
-                           <li>
-                              <label>
-                                 <input type="checkbox" name="SborDoc" value="Да">Да
-                              </label>
-                           </li>
-                           <li>
-                              <label>
-                                 <input type="checkbox" name="SborDoc" value="Нет">Нет
-                              </label>
-                           </li>
-                        </ul>
-                        <div class="quiz__footer">
-                           <a href="javascript:void(0);" class="quiz__prev prev-fourth">Назад</a>
-                           <a href="javascript:void(0);" class="quiz__next next-fourth">Далее</a>
-                        </div>
+                     <ul class="quiz__question">
+                        <li>
+                           <label>
+                              <input type="checkbox" name="KulturnoeNasledie" value="Да">Да
+                           </label>
+                        </li>
+                        <li>
+                           <label>
+                              <input type="checkbox" name="KulturnoeNasledie" value="Нет">Нет
+                           </label>
+                        </li>
+                     </ul>
+                     <div class="quiz__footer">
+                        <a href="javascript:void(0);" class="quiz__prev prev-third">Назад</a>
+                        <a href="javascript:void(0);" class="quiz__next next-third">Далее</a>
                      </div>
                   </div>
-                  <div class="quiz__body body-fifth">
-                     <div class="quiz__content">
-                        <div class="quiz__header">
-                           <h2 class="quiz__title">5. Есть ли конфликты с соседями, УК, жилищной инспекцией?</h2>
-                           <div class="quiz__icon">
-                              <span></span>
-                              <span></span>
-                           </div>
-                        </div>
-                        <ul class="quiz__question">
-                           <li>
-                              <label>
-                                 <input type="checkbox" name="Konflikty" value="Да">Да
-                              </label>
-                           </li>
-                           <li>
-                              <label>
-                                 <input type="checkbox" name="Konflikty" value="Нет">Нет
-                              </label>
-                           </li>
-                        </ul>
-                        <div class="quiz__footer">
-                           <a href="javascript:void(0);" class="quiz__prev prev-fifth">Назад</a>
-                           <a href="javascript:void(0);" class="quiz__next next-fifth">Далее</a>
+               </div>
+               <div class="quiz__body body-fourth">
+                  <div class="quiz__content">
+                     <div class="quiz__header">
+                        <h2 class="quiz__title">4. Потребуется ли сбор документов?</h2>
+                        <div class="quiz__icon">
+                           <span></span>
+                           <span></span>
                         </div>
                      </div>
-                  </div>
-                  <div class="quiz__body body-sixth">
-                     <div class="quiz__content">
-                        <div class="quiz__header">
-                           <h2 class="quiz__title">Оставьте контактную информацию</h2>
-                           <div class="quiz__icon">
-                              <span></span>
-                              <span></span>
-                           </div>
-                        </div>
-                        <div class="quiz__form">
-                           <input type="text" name="name" placeholder="Имя">
-                           <input type="text" name="phone" placeholder="Телефон">
-                        </div>
-                        <div class="quiz__footer">
-                           <a href="javascript:void(0);" class="quiz__prev prev-sixth">Назад</a>
-                           <button class="quiz__next next-sixth" type="submit" name="submit">Отправить</button>
-                        </div>
+                     <ul class="quiz__question">
+                        <li>
+                           <label>
+                              <input type="checkbox" name="SborDoc" value="Да">Да
+                           </label>
+                        </li>
+                        <li>
+                           <label>
+                              <input type="checkbox" name="SborDoc" value="Нет">Нет
+                           </label>
+                        </li>
+                     </ul>
+                     <div class="quiz__footer">
+                        <a href="javascript:void(0);" class="quiz__prev prev-fourth">Назад</a>
+                        <a href="javascript:void(0);" class="quiz__next next-fourth">Далее</a>
                      </div>
                   </div>
-               </form>
+               </div>
+               <div class="quiz__body body-fifth">
+                  <div class="quiz__content">
+                     <div class="quiz__header">
+                        <h2 class="quiz__title">5. Есть ли конфликты с соседями, УК, жилищной инспекцией?</h2>
+                        <div class="quiz__icon">
+                           <span></span>
+                           <span></span>
+                        </div>
+                     </div>
+                     <ul class="quiz__question">
+                        <li>
+                           <label>
+                              <input type="checkbox" name="Konflikty" value="Да">Да
+                           </label>
+                        </li>
+                        <li>
+                           <label>
+                              <input type="checkbox" name="Konflikty" value="Нет">Нет
+                           </label>
+                        </li>
+                     </ul>
+                     <div class="quiz__footer">
+                        <a href="javascript:void(0);" class="quiz__prev prev-fifth">Назад</a>
+                        <a href="javascript:void(0);" class="quiz__next next-fifth">Далее</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="quiz__body body-sixth">
+                  <div class="quiz__content">
+                     <div class="quiz__header">
+                        <h2 class="quiz__title">Оставьте контактную информацию</h2>
+                        <div class="quiz__icon">
+                           <span></span>
+                           <span></span>
+                        </div>
+                     </div>
+                     <form action="/quiz.php" class="quiz__form" method="post">
+                        <input type="hidden" name="VyborPereplanirovki" value="">
+                        <input type="hidden" name="CelPereplanirovki" value="">
+                        <input type="hidden" name="moKulturnoeNaslediedel" value="">
+                        <input type="hidden" name="SborDoc" value="">
+                        <input type="hidden" name="Konflikty" value="">
+                        <input type="text" name="name" placeholder="Имя">
+                        <input type="text" name="phone" placeholder="Телефон">
+                     </form>
+                     <div class="quiz__footer">
+                        <a href="javascript:void(0);" class="quiz__prev prev-sixth">Назад</a>
+                        <button href="javascript:void(0);" type="submit" name="submit"
+                           class="quiz__next next-sixth">Отправить</button>
+                     </div>
+                  </div>
+               </div>
+
             </div>
 
          </div>
